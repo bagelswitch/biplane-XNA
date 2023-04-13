@@ -1,0 +1,5 @@
+D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\HeightmapPipeline\bin\Xbox 360\Release\HeightmapPipeline.dll
+D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\HeightmapPipeline\bin\Xbox 360\Release\HeightmapPipeline.pdb
+D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\HeightmapPipeline\obj\Xbox 360\Release\ResolveAssemblyReference.cache
+D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\HeightmapPipeline\obj\Xbox 360\Release\HeightmapPipeline.dll
+D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\HeightmapPipeline\obj\Xbox 360\Release\HeightmapPipeline.pdb

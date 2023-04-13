@@ -1,0 +1,2 @@
+D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\Content\obj\Xbox 360\Release\ResolveAssemblyReference.cache
+D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\Content\obj\Xbox 360\Release\Audio\Biplane.xml

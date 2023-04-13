@@ -1,0 +1,240 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectGuid>{3E63A527-2683-419E-B3D4-AE12E8535F9F}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Biplane</RootNamespace>
+    <AssemblyName>Biplane</AssemblyName>
+    <XnaFrameworkVersion>v3.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>4D53BD5E2998AE13BD8079CE69E21ADD3260F0FE</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Biplane_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <Thumbnail>
+    </Thumbnail>
+    <XnaCrossPlatformGroupID>{a8b70e82-107f-4adc-97f2-2edfbad9b5dc}</XnaCrossPlatformGroupID>
+    <XnaUpgrade>
+    </XnaUpgrade>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>D:\Users\ncohen\Desktop\Biplane\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG%3bTRACE%3bWINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>True</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=3.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d" />
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\BaronManager.cs" />
+    <Compile Include="Components\BuildingManager.cs" />
+    <Compile Include="Components\BomberManager.cs" />
+    <Compile Include="Components\DebugLineManager.cs" />
+    <Compile Include="Components\LoadManager.cs" />
+    <Compile Include="Components\MenuManager.cs" />
+    <Compile Include="Heightmap\HeightMapInfo.cs" />
+    <Compile Include="Objects\Player\Player2.cs" />
+    <Compile Include="Objects\Player\Player1.cs" />
+    <Compile Include="Objects\Static\Terrain.cs" />
+    <Compile Include="Objects\Target\Bomber.cs" />
+    <Compile Include="Objects\Weapon\Supplies.cs" />
+    <Compile Include="Service\CameraService.cs" />
+    <Compile Include="Components\ZeppelinManager.cs" />
+    <Compile Include="Components\GameObjectManager.cs" />
+    <Compile Include="Components\PlayerManager.cs" />
+    <Compile Include="PostProcessing\BloomComponent.cs" />
+    <Compile Include="PostProcessing\BloomSettings.cs" />
+    <Compile Include="Objects\Sitter.cs">
+      <Name>Sitter</Name>
+    </Compile>
+    <Compile Include="Objects\Destroyable.cs">
+      <Name>Destroyable</Name>
+    </Compile>
+    <Compile Include="Objects\Flyer.cs">
+      <Name>Flyer</Name>
+    </Compile>
+    <Compile Include="Objects\GameObject2D.cs">
+      <Name>GameObject2D</Name>
+    </Compile>
+    <Compile Include="Objects\GameObject.cs">
+      <Name>GameObject</Name>
+    </Compile>
+    <Compile Include="Objects\GameObject3DModel.cs">
+      <Name>GameObject3DModel</Name>
+    </Compile>
+    <Compile Include="Objects\SoundGenerator.cs">
+      <Name>SoundGenerator</Name>
+    </Compile>
+    <Compile Include="Objects\Static\Cloud.cs">
+      <Name>Cloud</Name>
+    </Compile>
+    <Compile Include="Objects\Static\Water.cs" />
+    <Compile Include="Objects\Target\Building.cs">
+      <Name>Building</Name>
+    </Compile>
+    <Compile Include="Objects\Weapon\Debris.cs">
+      <Name>Debris</Name>
+    </Compile>
+    <Compile Include="Objects\Target\Baron.cs">
+      <Name>Baron</Name>
+    </Compile>
+    <Compile Include="Objects\Target\Zeppelin.cs" />
+    <Compile Include="Objects\UI\UIBacking.cs" />
+    <Compile Include="Objects\UI\Logo.cs">
+      <Name>Logo</Name>
+    </Compile>
+    <Compile Include="Objects\Targeter.cs">
+      <Name>Vehicle</Name>
+    </Compile>
+    <Compile Include="Objects\Player\Aircraft.cs">
+      <Name>Aircraft</Name>
+    </Compile>
+    <Compile Include="Objects\GameObjectGenerator.cs">
+      <Name>GameObjectGenerator</Name>
+    </Compile>
+    <Compile Include="Objects\Weapon\Bullet.cs">
+      <Name>Bullet</Name>
+    </Compile>
+    <Compile Include="Objects\Weapon\Bomb.cs">
+      <Name>Bomb</Name>
+    </Compile>
+    <Compile Include="Objects\Weapon\Missle.cs" />
+    <Compile Include="ParticleSystem\ParticleEmitter.cs" />
+    <Compile Include="ParticleSystem\ParticleSettings.cs" />
+    <Compile Include="ParticleSystem\ParticleSystem.cs" />
+    <Compile Include="ParticleSystem\ParticleSystems\VaporPlumeParticleSystem.cs" />
+    <Compile Include="ParticleSystem\ParticleSystems\VaporTrailParticleSystem.cs" />
+    <Compile Include="ParticleSystem\ParticleSystems\TracerParticleSystem.cs" />
+    <Compile Include="ParticleSystem\ParticleSystems\ExplosionParticleSystem.cs" />
+    <Compile Include="ParticleSystem\ParticleSystems\ExplosionSmokeParticleSystem.cs" />
+    <Compile Include="ParticleSystem\ParticleSystems\FireParticleSystem.cs" />
+    <Compile Include="ParticleSystem\ParticleSystems\ProjectileTrailParticleSystem.cs" />
+    <Compile Include="ParticleSystem\ParticleSystems\SmokePlumeParticleSystem.cs" />
+    <Compile Include="ParticleSystem\ParticleVertex.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <Name>AssemblyInfo</Name>
+    </Compile>
+    <Compile Include="Biplane.cs">
+      <Name>Game1</Name>
+    </Compile>
+    <Compile Include="Service\CameraProvider.cs" />
+    <Compile Include="Service\UITextProvider.cs" />
+    <Compile Include="Service\UITextService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico">
+      <Name>Game</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Biplane_TemporaryKey.pfx">
+      <Name>Biplane_TemporaryKey</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 3.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content\Content.contentproj">
+      <Project>{e435e610-cc25-4410-ae46-bc27ef06c750}</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" Condition="" />
+</Project>

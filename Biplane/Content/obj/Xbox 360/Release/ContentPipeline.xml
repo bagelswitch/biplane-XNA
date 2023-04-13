@@ -1,0 +1,1419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Graphics="Microsoft.Xna.Framework.Graphics" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\pea_proj.x</Source>
+      <Name>Models\pea_proj</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\pea_proj.xnb</Output>
+      <Time>2007-03-15T21:37:16.089871-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\pea_proj_0.xml</Key>
+        <Value>2008-12-10T13:59:27.1501937-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\textures\pea_proj_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\baron.X</Source>
+      <Name>Models\baron</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\baron.xnb</Output>
+      <Time>2008-03-13T21:17:37.3007161-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\baron_0.xml</Key>
+        <Value>2008-12-10T13:59:28.2145787-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\baronwing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\bomber.X</Source>
+      <Name>Models\bomber</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\bomber.xnb</Output>
+      <Time>2008-03-13T21:18:32.6438536-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\bomber_0.xml</Key>
+        <Value>2008-12-10T13:59:29.2984937-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\cameltricolor_0.xnb</Request>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\camelwing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\sopwith.X</Source>
+      <Name>Models\sopwith</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\sopwith.xnb</Output>
+      <Time>2008-03-16T11:24:34.3096006-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\sopwith_0.xml</Key>
+        <Value>2008-12-10T13:59:30.7603142-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\camelwing_0.xnb</Request>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\cameltricolor_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\sopwith2.X</Source>
+      <Name>Models\sopwith2</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\sopwith2.xnb</Output>
+      <Time>2008-03-16T11:25:02.3566336-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\sopwith2_0.xml</Key>
+        <Value>2008-12-10T13:59:31.3803917-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\camelwing_0.xnb</Request>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\cameltricolor_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\zepp.X</Source>
+      <Name>Models\zepp</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\zepp.xnb</Output>
+      <Time>2008-03-13T21:19:51.1368766-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\zepp_0.xml</Key>
+        <Value>2008-12-10T13:59:31.9487147-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\baronwing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\factory.X</Source>
+      <Name>Models\factory</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\factory.xnb</Output>
+      <Time>2008-03-21T11:56:54.8609625-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\factory_0.xml</Key>
+        <Value>2008-12-10T13:59:32.5463327-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\brick_wall_0.xnb</Request>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\metal-door-ribs_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\battleship.X</Source>
+      <Name>Models\battleship</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\battleship.xnb</Output>
+      <Time>2008-03-22T14:05:19.53612-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\battleship_0.xml</Key>
+        <Value>2008-12-10T13:59:33.7806287-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\bship-side_0.xnb</Request>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\bship-stack_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs1.X</Source>
+      <Name>Models\debrisbs1</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisbs1.xnb</Output>
+      <Time>2008-03-22T14:46:36.8375235-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisbs1_0.xml</Key>
+        <Value>2008-12-10T13:59:34.9807472-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\bship-stack_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs2.X</Source>
+      <Name>Models\debrisbs2</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisbs2.xnb</Output>
+      <Time>2008-03-22T14:46:09.3431895-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisbs2_0.xml</Key>
+        <Value>2008-12-10T13:59:35.1740942-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs3.X</Source>
+      <Name>Models\debrisbs3</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisbs3.xnb</Output>
+      <Time>2008-03-22T14:46:09.410568-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisbs3_0.xml</Key>
+        <Value>2008-12-10T13:59:35.3840417-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs4.X</Source>
+      <Name>Models\debrisbs4</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisbs4.xnb</Output>
+      <Time>2008-03-22T14:46:09.467205-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisbs4_0.xml</Key>
+        <Value>2008-12-10T13:59:35.5559057-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs5.X</Source>
+      <Name>Models\debrisbs5</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisbs5.xnb</Output>
+      <Time>2008-03-22T14:46:09.215268-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisbs5_0.xml</Key>
+        <Value>2008-12-10T13:59:35.7238637-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\parachute.X</Source>
+      <Name>Models\parachute</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\parachute.xnb</Output>
+      <Time>2008-06-06T09:53:04.7050936-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\parachute_0.xml</Key>
+        <Value>2008-12-10T13:59:35.9855657-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Sprites\logo.dds</Source>
+      <Name>Sprites\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Sprites\logo.xnb</Output>
+      <Time>2007-03-15T21:38:25.5603994-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\pea_proj.tga</Source>
+      <Name>Textures\pea_proj</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\pea_proj.xnb</Output>
+      <Time>2007-03-15T21:38:37.5607066-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\explosion.dds</Source>
+      <Name>Sprites\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Sprites\explosion.xnb</Output>
+      <Time>2007-03-16T14:13:38.3135-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\cloud.dds</Source>
+      <Name>Sprites\cloud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Sprites\cloud.xnb</Output>
+      <Time>2007-03-23T00:03:07.736625-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleSystem\explosion.png</Source>
+      <Name>ParticleSystem\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\ParticleSystem\explosion.xnb</Output>
+      <Time>2008-02-23T16:32:54.9108174-08:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleSystem\fire.png</Source>
+      <Name>ParticleSystem\fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\ParticleSystem\fire.xnb</Output>
+      <Time>2008-02-23T16:32:54.9196059-08:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleSystem\smoke.png</Source>
+      <Name>ParticleSystem\smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\ParticleSystem\smoke.xnb</Output>
+      <Time>2008-02-23T16:32:54.9010524-08:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleSystem\vapor.png</Source>
+      <Name>ParticleSystem\vapor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\ParticleSystem\vapor.xnb</Output>
+      <Time>2008-02-29T15:35:10.1852751-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\uibacking.png</Source>
+      <Name>Textures\uibacking</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\uibacking.xnb</Output>
+      <Time>2008-02-29T16:11:08.5363896-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Heightmap\terrain1.bmp</Source>
+      <Name>Heightmap\terrain1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.003</Data>
+        <Data Key="TerrainTextureFilename">ground.bmp</Data>
+        <Data Key="TerrainScale">6000</Data>
+        <Data Key="TerrainBumpiness">200000</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Heightmap\terrain1.xnb</Output>
+      <Time>2008-03-13T21:44:00.7979986-07:00</Time>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Heightmap\ground_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Heightmap\terrain2.bmp</Source>
+      <Name>Heightmap\terrain2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.003</Data>
+        <Data Key="TerrainTextureFilename">ground2.bmp</Data>
+        <Data Key="TerrainScale">8000</Data>
+        <Data Key="TerrainBumpiness">200000</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Heightmap\terrain2.xnb</Output>
+      <Time>2008-03-21T14:04:31.133625-07:00</Time>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Heightmap\ground2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Heightmap\terrain3.bmp</Source>
+      <Name>Heightmap\terrain3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TerrainTextureFilename">ground3.bmp</Data>
+        <Data Key="TerrainScale">6000</Data>
+        <Data Key="TerrainBumpiness">200000</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Heightmap\terrain3.xnb</Output>
+      <Time>2008-03-20T21:29:25.449174-07:00</Time>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Heightmap\ground3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Textures\sky1.jpg</Source>
+      <Name>Textures\sky1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\sky1.xnb</Output>
+      <Time>2008-03-19T21:08:33.0969152-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\sky2.jpg</Source>
+      <Name>Textures\sky2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\sky2.xnb</Output>
+      <Time>2008-03-19T21:08:33.1086332-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\sky3.jpg</Source>
+      <Name>Textures\sky3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\sky3.xnb</Output>
+      <Time>2008-03-19T21:08:33.0754322-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris11.fbx</Source>
+      <Name>Models\debris11</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris11.xnb</Output>
+      <Time>2008-03-01T11:10:45.6379746-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris11_0.xml</Key>
+        <Value>2008-12-10T13:59:57.1707332-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4B9C25D4\debris11.fbm\camelwing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debris12.fbx</Source>
+      <Name>Models\debris12</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris12.xnb</Output>
+      <Time>2008-03-01T11:10:45.8117916-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris12_0.xml</Key>
+        <Value>2008-12-10T13:59:58.6843082-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debris13.fbx</Source>
+      <Name>Models\debris13</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris13.xnb</Output>
+      <Time>2008-03-01T11:10:45.9006531-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris13_0.xml</Key>
+        <Value>2008-12-10T13:59:59.7740822-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debris14.fbx</Source>
+      <Name>Models\debris14</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris14.xnb</Output>
+      <Time>2008-03-01T11:10:45.9983031-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris14_0.xml</Key>
+        <Value>2008-12-10T14:00:00.8189372-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debris15.fbx</Source>
+      <Name>Models\debris15</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris15.xnb</Output>
+      <Time>2008-03-01T11:10:46.1457546-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris15_0.xml</Key>
+        <Value>2008-12-10T14:00:01.9868312-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debris16.fbx</Source>
+      <Name>Models\debris16</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris16.xnb</Output>
+      <Time>2008-03-01T11:10:45.5608311-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris16_0.xml</Key>
+        <Value>2008-12-10T14:00:03.1098062-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\bomb.fbx</Source>
+      <Name>Models\bomb</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\bomb.xnb</Output>
+      <Time>2007-03-20T22:03:28.9755412-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\bomb_0.xml</Key>
+        <Value>2008-12-10T14:00:04.2357107-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debris31.fbx</Source>
+      <Name>Models\debris31</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris31.xnb</Output>
+      <Time>2008-03-01T12:03:59.7138141-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris31_0.xml</Key>
+        <Value>2008-12-10T14:00:05.3450147-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4BA825D6\debris31.fbm\baronwing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debris32.fbx</Source>
+      <Name>Models\debris32</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris32.xnb</Output>
+      <Time>2008-03-01T12:03:59.7684981-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris32_0.xml</Key>
+        <Value>2008-12-10T14:00:06.7707047-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debris33.fbx</Source>
+      <Name>Models\debris33</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris33.xnb</Output>
+      <Time>2008-03-01T12:03:59.8534536-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris33_0.xml</Key>
+        <Value>2008-12-10T14:00:07.8214187-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debris34.fbx</Source>
+      <Name>Models\debris34</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris34.xnb</Output>
+      <Time>2008-03-01T12:03:59.9794221-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris34_0.xml</Key>
+        <Value>2008-12-10T14:00:08.9619707-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debris35.fbx</Source>
+      <Name>Models\debris35</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris35.xnb</Output>
+      <Time>2008-03-01T12:04:00.0995316-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris35_0.xml</Key>
+        <Value>2008-12-10T14:00:10.1708777-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debris36.fbx</Source>
+      <Name>Models\debris36</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debris36.xnb</Output>
+      <Time>2008-03-01T12:04:00.1971816-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debris36_0.xml</Key>
+        <Value>2008-12-10T14:00:11.2928762-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debrisb1.fbx</Source>
+      <Name>Models\debrisb1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisb1.xnb</Output>
+      <Time>2008-03-01T16:19:10.2211836-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisb1_0.xml</Key>
+        <Value>2008-12-10T14:00:12.3699557-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debrisb2.fbx</Source>
+      <Name>Models\debrisb2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisb2.xnb</Output>
+      <Time>2008-03-01T16:11:33.0131421-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisb2_0.xml</Key>
+        <Value>2008-12-10T14:00:13.4323877-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4CC72606\debrisb2.fbm\brick_wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debrisb3.fbx</Source>
+      <Name>Models\debrisb3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisb3.xnb</Output>
+      <Time>2008-03-01T16:11:33.1039566-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisb3_0.xml</Key>
+        <Value>2008-12-10T14:00:14.8405007-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4CCC2607\debrisb3.fbm\brick_wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debrisb4.fbx</Source>
+      <Name>Models\debrisb4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisb4.xnb</Output>
+      <Time>2008-03-01T16:11:33.2045361-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisb4_0.xml</Key>
+        <Value>2008-12-10T14:00:16.2740027-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4CD12608\debrisb4.fbm\brick_wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debrisb5.fbx</Source>
+      <Name>Models\debrisb5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisb5.xnb</Output>
+      <Time>2008-03-01T16:11:33.2572671-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisb5_0.xml</Key>
+        <Value>2008-12-10T14:00:17.6625857-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4CD62609\debrisb5.fbm\metal-door-ribs_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debrisb6.fbx</Source>
+      <Name>Models\debrisb6</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisb6.xnb</Output>
+      <Time>2008-03-01T16:11:32.8783851-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisb6_0.xml</Key>
+        <Value>2008-12-10T14:00:18.8812577-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\missle.fbx</Source>
+      <Name>Models\missle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\missle.xnb</Output>
+      <Time>2008-02-24T11:59:47.0074565-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\missle_0.xml</Key>
+        <Value>2008-12-10T14:00:19.9573607-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\plane.fbx</Source>
+      <Name>Models\plane</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\plane.xnb</Output>
+      <Time>2008-02-27T09:25:15.6354516-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\plane_0.xml</Key>
+        <Value>2008-12-10T14:00:21.0119807-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debrisz1.fbx</Source>
+      <Name>Models\debrisz1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisz1.xnb</Output>
+      <Time>2008-03-02T11:36:55.5856775-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisz1_0.xml</Key>
+        <Value>2008-12-10T14:00:22.1408147-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debrisz2.fbx</Source>
+      <Name>Models\debrisz2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisz2.xnb</Output>
+      <Time>2008-03-02T11:36:55.715552-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisz2_0.xml</Key>
+        <Value>2008-12-10T14:00:23.3057792-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debrisz3.fbx</Source>
+      <Name>Models\debrisz3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisz3.xnb</Output>
+      <Time>2008-03-02T11:36:55.7907425-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisz3_0.xml</Key>
+        <Value>2008-12-10T14:00:24.3896942-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4D5C261F\debrisz3.fbm\baronwing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debrisz4.fbx</Source>
+      <Name>Models\debrisz4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisz4.xnb</Output>
+      <Time>2008-03-02T11:36:55.840544-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisz4_0.xml</Key>
+        <Value>2008-12-10T14:00:25.7792537-08:00</Value>
+      </Dependency>
+      <Request>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4D612620\debrisz4.fbm\baronwing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\debrisz5.fbx</Source>
+      <Name>Models\debrisz5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisz5.xnb</Output>
+      <Time>2008-03-02T11:36:55.897181-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisz5_0.xml</Key>
+        <Value>2008-12-10T14:00:27.1805312-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\debrisz6.fbx</Source>
+      <Name>Models\debrisz6</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\debrisz6.xnb</Output>
+      <Time>2008-03-02T11:36:55.483145-08:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\debrisz6_0.xml</Key>
+        <Value>2008-12-10T14:00:28.2341747-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\waves.fbx</Source>
+      <Name>Models\waves</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Models\waves.xnb</Output>
+      <Time>2008-03-16T15:09:33.1048021-07:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Models\waves_0.xml</Key>
+        <Value>2008-12-10T14:00:31.7485982-08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>LCD.spritefont</Source>
+      <Name>LCD</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\LCD.xnb</Output>
+      <Time>2008-02-29T13:20:42.4721496-08:00</Time>
+    </Item>
+    <Item>
+      <Source>ComicSans.spritefont</Source>
+      <Name>ComicSans</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\ComicSans.xnb</Output>
+      <Time>2008-02-29T13:20:43.8968631-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\BloomCombine.fx</Source>
+      <Name>Effects\BloomCombine</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Effects\BloomCombine.xnb</Output>
+      <Time>2008-02-23T11:28:40.9307094-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\BloomExtract.fx</Source>
+      <Name>Effects\BloomExtract</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Effects\BloomExtract.xnb</Output>
+      <Time>2008-02-23T11:28:40.9404744-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\GaussianBlur.fx</Source>
+      <Name>Effects\GaussianBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Effects\GaussianBlur.xnb</Output>
+      <Time>2008-02-23T11:28:40.9150854-08:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleSystem\ParticleEffect.fx</Source>
+      <Name>ParticleSystem\ParticleEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\ParticleSystem\ParticleEffect.xnb</Output>
+      <Time>2008-02-23T16:32:54.9391359-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\waves.fx</Source>
+      <Name>Effects\waves</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Effects\waves.xnb</Output>
+      <Time>2008-03-19T13:30:48.3782072-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\Lines.fx</Source>
+      <Name>Effects\Lines</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Effects\Lines.xnb</Output>
+      <Time>2008-06-06T23:26:26.2124566-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\pea_proj.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\pea_proj_0.xml</Output>
+      <Time>2007-03-15T21:37:16.089871-07:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\pea_proj.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\textures\pea_proj_0.xnb</Output>
+      <Time>2007-03-15T21:38:37.5607066-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\baron.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\baron_0.xml</Output>
+      <Time>2008-03-13T21:17:37.3007161-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\baronwing.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\baronwing_0.xnb</Output>
+      <Time>2008-03-13T21:15:14.9406871-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\bomber.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\bomber_0.xml</Output>
+      <Time>2008-03-13T21:18:32.6438536-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\cameltricolor.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\cameltricolor_0.xnb</Output>
+      <Time>2008-03-13T21:15:14.9602171-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\camelwing.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\camelwing_0.xnb</Output>
+      <Time>2008-03-13T21:15:14.9690056-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\sopwith.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\sopwith_0.xml</Output>
+      <Time>2008-03-16T11:24:34.3096006-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\sopwith2.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\sopwith2_0.xml</Output>
+      <Time>2008-03-16T11:25:02.3566336-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\zepp.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\zepp_0.xml</Output>
+      <Time>2008-03-13T21:19:51.1368766-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\factory.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\factory_0.xml</Output>
+      <Time>2008-03-21T11:56:54.8609625-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\brick_wall.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\brick_wall_0.xnb</Output>
+      <Time>2008-03-13T21:15:14.9533816-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\metal-door-ribs.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\metal-door-ribs_0.xnb</Output>
+      <Time>2008-03-13T21:15:14.9758411-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\battleship.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\battleship_0.xml</Output>
+      <Time>2008-03-22T14:05:19.53612-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\bship-side.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\bship-side_0.xnb</Output>
+      <Time>2008-03-21T15:16:21.232761-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\bship-stack.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Textures\bship-stack_0.xnb</Output>
+      <Time>2008-03-21T15:16:21.211278-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs1.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisbs1_0.xml</Output>
+      <Time>2008-03-22T14:46:36.8375235-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs2.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisbs2_0.xml</Output>
+      <Time>2008-03-22T14:46:09.3431895-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs3.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisbs3_0.xml</Output>
+      <Time>2008-03-22T14:46:09.410568-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs4.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisbs4_0.xml</Output>
+      <Time>2008-03-22T14:46:09.467205-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisbs5.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisbs5_0.xml</Output>
+      <Time>2008-03-22T14:46:09.215268-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\parachute.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\parachute_0.xml</Output>
+      <Time>2008-06-06T09:53:04.7050936-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Heightmap\ground.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Heightmap\ground_0.xnb</Output>
+      <Time>2008-03-19T18:15:34.4525972-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Heightmap\ground2.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Heightmap\ground2_0.xnb</Output>
+      <Time>2008-03-21T14:04:23.9397495-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Heightmap\ground3.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\Heightmap\ground3_0.xnb</Output>
+      <Time>2008-03-20T21:53:23.704776-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris11.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris11_0.xml</Output>
+      <Time>2008-03-01T11:10:45.6379746-08:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\Xbox 360\Release\FBX\4B9C25D4\debris11.fbm\camelwing.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4B9C25D4\debris11.fbm\camelwing_0.xnb</Output>
+      <Time>2008-12-10T13:59:57.0965192-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris12.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris12_0.xml</Output>
+      <Time>2008-03-01T11:10:45.8117916-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris13.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris13_0.xml</Output>
+      <Time>2008-03-01T11:10:45.9006531-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris14.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris14_0.xml</Output>
+      <Time>2008-03-01T11:10:45.9983031-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris15.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris15_0.xml</Output>
+      <Time>2008-03-01T11:10:46.1457546-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris16.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris16_0.xml</Output>
+      <Time>2008-03-01T11:10:45.5608311-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\bomb.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\bomb_0.xml</Output>
+      <Time>2007-03-20T22:03:28.9755412-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris31.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris31_0.xml</Output>
+      <Time>2008-03-01T12:03:59.7138141-08:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\Xbox 360\Release\FBX\4BA825D6\debris31.fbm\baronwing.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4BA825D6\debris31.fbm\baronwing_0.xnb</Output>
+      <Time>2008-12-10T14:00:05.3157197-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris32.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris32_0.xml</Output>
+      <Time>2008-03-01T12:03:59.7684981-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris33.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris33_0.xml</Output>
+      <Time>2008-03-01T12:03:59.8534536-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris34.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris34_0.xml</Output>
+      <Time>2008-03-01T12:03:59.9794221-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris35.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris35_0.xml</Output>
+      <Time>2008-03-01T12:04:00.0995316-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debris36.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debris36_0.xml</Output>
+      <Time>2008-03-01T12:04:00.1971816-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisb1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisb1_0.xml</Output>
+      <Time>2008-03-01T16:19:10.2211836-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisb2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisb2_0.xml</Output>
+      <Time>2008-03-01T16:11:33.0131421-08:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\Xbox 360\Release\FBX\4CC72606\debrisb2.fbm\brick_wall.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4CC72606\debrisb2.fbm\brick_wall_0.xnb</Output>
+      <Time>2008-12-10T14:00:13.4177402-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisb3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisb3_0.xml</Output>
+      <Time>2008-03-01T16:11:33.1039566-08:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\Xbox 360\Release\FBX\4CCC2607\debrisb3.fbm\brick_wall.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4CCC2607\debrisb3.fbm\brick_wall_0.xnb</Output>
+      <Time>2008-12-10T14:00:14.8229237-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisb4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisb4_0.xml</Output>
+      <Time>2008-03-01T16:11:33.2045361-08:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\Xbox 360\Release\FBX\4CD12608\debrisb4.fbm\brick_wall.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4CD12608\debrisb4.fbm\brick_wall_0.xnb</Output>
+      <Time>2008-12-10T14:00:16.2564257-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisb5.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisb5_0.xml</Output>
+      <Time>2008-03-01T16:11:33.2572671-08:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\Xbox 360\Release\FBX\4CD62609\debrisb5.fbm\metal-door-ribs.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4CD62609\debrisb5.fbm\metal-door-ribs_0.xnb</Output>
+      <Time>2008-12-10T14:00:17.6557502-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisb6.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisb6_0.xml</Output>
+      <Time>2008-03-01T16:11:32.8783851-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\missle.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\missle_0.xml</Output>
+      <Time>2008-02-24T11:59:47.0074565-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\plane.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\plane_0.xml</Output>
+      <Time>2008-02-27T09:25:15.6354516-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisz1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisz1_0.xml</Output>
+      <Time>2008-03-02T11:36:55.5856775-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisz2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisz2_0.xml</Output>
+      <Time>2008-03-02T11:36:55.715552-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisz3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisz3_0.xml</Output>
+      <Time>2008-03-02T11:36:55.7907425-08:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\Xbox 360\Release\FBX\4D5C261F\debrisz3.fbm\baronwing.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4D5C261F\debrisz3.fbm\baronwing_0.xnb</Output>
+      <Time>2008-12-10T14:00:24.3848117-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisz4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisz4_0.xml</Output>
+      <Time>2008-03-02T11:36:55.840544-08:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\Xbox 360\Release\FBX\4D612620\debrisz4.fbm\baronwing.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\FBX\4D612620\debrisz4.fbm\baronwing_0.xnb</Output>
+      <Time>2008-12-10T14:00:25.7743712-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisz5.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisz5_0.xml</Output>
+      <Time>2008-03-02T11:36:55.897181-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\debrisz6.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\debrisz6_0.xml</Output>
+      <Time>2008-03-02T11:36:55.483145-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\waves.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Models\waves_0.xml</Output>
+      <Time>2008-03-16T15:09:33.1048021-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\Content\</RootDirectory>
+      <LoggerRootDirectory>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\Content\obj\Xbox 360\Release\</IntermediateDirectory>
+      <OutputDirectory>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\bin\Xbox 360\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2008-10-10T18:42:32-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2008-10-10T18:43:28-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2008-10-10T18:43:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2008-10-10T18:48:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2008-10-10T18:48:50-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\HeightmapPipeline\bin\Xbox 360\Release\HeightmapPipeline.dll</Key>
+        <Value>2008-12-10T13:59:25.0995437-08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2008-12-10T10:07:12.0313562-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

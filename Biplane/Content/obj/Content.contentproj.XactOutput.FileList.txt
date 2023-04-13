@@ -1,0 +1,5 @@
+Content\Audio\Biplane.xgs
+Content\Audio\Wave Bank.xwb
+Content\Audio\Music Wave Bank.xwb
+Content\Audio\Sound Bank.xsb
+Content\Audio\Music Sound Bank.xsb

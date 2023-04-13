@@ -1,0 +1,8 @@
+obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+obj\Xbox 360\Debug\Audio\Biplane.xml
+obj\Xbox 360\Release\ResolveAssemblyReference.cache
+obj\Xbox 360\Release\Audio\Biplane.xml
+obj\x86\Debug\ResolveAssemblyReference.cache
+obj\x86\Debug\Audio\Biplane.xml
+obj\x86\Release\ResolveAssemblyReference.cache
+obj\x86\Release\Audio\Biplane.xml

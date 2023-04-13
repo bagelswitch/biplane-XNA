@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>Pyramid02</Name>
+    <Identity>
+      <SourceFilename>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\Content\Models\debrisb6.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>0.0105987135 1.8542142E-15 -6.54563475 0 -6.54563475 3.00234985E-18 -0.0105987135 0 0 6.54564333 1.85421653E-15 0 1196.4563 1453.78906 -282.458984 1</Transform>
+    <Positions>0 0 95.5235 -169.0031 -97.36047 0 169.0031 -97.36047 0 169.0031 97.36047 0 -169.0031 97.36047 0 0 0 0</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 5 4 3 8 7 6 11 10 9 14 13 12 15 13 14 16 13 15 12 13 16</Indices>
+        <Vertices>
+          <PositionIndices>0 1 2 0 2 3 0 3 4 0 4 1 1 5 2 3 4</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 -0.700340748 0.713808656 0 -0.700340748 0.713808656 0 -0.700340748 0.713808656 0.4920573 0 0.8705628 0.492057264 0 0.870562732 0.492057264 0 0.870562732 0 0.700340748 0.713808656 0 0.700340748 0.713808656 0 0.700340748 0.713808656 -0.4920573 0 0.8705628 -0.492057264 0 0.870562732 -0.492057264 0 0.870562732 0 0 -0.99999994 0 0 -1 0 0 -0.99999994 0 0 -0.99999994 0 0 -0.99999994</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>blue putty</Name>
+      <Identity>
+        <SourceFilename>D:\Users\ncohen\Documents\Visual Studio 2008\Projects\Biplane\Biplane\Content\Models\debrisb6.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.5686275 0.58431375 0.7686275</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0.153 0.153 0.153</Data>
+        <Data Key="SpecularPower" Type="float">5.27803135</Data>
+      </OpaqueData>
+    </Resource>
+  </Resources>
+</XnaContent>

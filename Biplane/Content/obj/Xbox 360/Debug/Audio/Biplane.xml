@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 0;
+    PC Bank Last Modified High = 0;
+    Header Last Modified Low = 0;
+    Header Last Modified High = 0;
+
+    Wave
+    {
+        Name = targfire;
+        File = targfire.wav;
+        Build Settings Last Modified Low = 1404761008;
+        Build Settings Last Modified High = 29843902;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 8000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 3896;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 260612096;
+            Last Modified High = 29413699;
+        }
+    }
+
+    Wave
+    {
+        Name = bombexpl;
+        File = bombexpl.wav;
+        Build Settings Last Modified Low = 1404761008;
+        Build Settings Last Modified High = 29843902;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 21739;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 76524;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 112393728;
+            Last Modified High = 29543707;
+        }
+    }
+
+    Wave
+    {
+        Name = planengi;
+        File = planengi.wav;
+        Build Settings Last Modified Low = 1404761008;
+        Build Settings Last Modified High = 29843902;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 22050;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 11640;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 830546688;
+            Last Modified High = 29413697;
+        }
+    }
+
+    Wave
+    {
+        Name = planfire;
+        File = planfire.wav;
+        Build Settings Last Modified Low = 1404761008;
+        Build Settings Last Modified High = 29843902;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 19148;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3135579392;
+            Last Modified High = 29413698;
+        }
+    }
+
+    Wave
+    {
+        Name = targexpl;
+        File = targexpl.wav;
+        Build Settings Last Modified Low = 1404761008;
+        Build Settings Last Modified High = 29843902;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 22050;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 115082;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 212393728;
+            Last Modified High = 29543707;
+        }
+    }
+}
+
+</WaveBank>
+  <WaveBank Name="Music Wave Bank">Wave Bank
+{
+    Name = Music Wave Bank;
+    Xbox File = Xbox\Music Wave Bank.xwb;
+    Windows File = Win\Music Wave Bank.xwb;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 0;
+    PC Bank Last Modified High = 0;
+    Header Last Modified Low = 0;
+    Header Last Modified High = 0;
+
+    Wave
+    {
+        Name = usmchymn;
+        File = usmchymn.wav;
+        Build Settings Last Modified Low = 4267809108;
+        Build Settings Last Modified High = 29846552;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 46;
+            Play Region Length = 606375;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3375465358;
+            Last Modified High = 29846552;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>
